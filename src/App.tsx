@@ -11,7 +11,7 @@ function App() {
             <header className="App-header">
                 <p>
                     {state.title}
-                    <button onClick={(e) => actions.actionFoo()}>click</button>
+                    <button onClick={(e) => actions.actionBar()}>click</button>
                 </p>
             </header>
         </div>
