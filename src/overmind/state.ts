@@ -1,5 +1,7 @@
 type State = {
+    title: string;
 }
 
-export const state = {
+export const state: State = {
+    title: 'foo from state',
 };
